@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
             msgError.style.fontSize = "12px";
             msgError.style.marginLeft = "5px";
             msgError.style.textAlign = "left";
-            msgError.textContent = "Username atau Password Tidak Boleh Kosong";
+            msgError.textContent = "Username atau Password tidak boleh kosong.";
             position.after(msgError);
         } else {
             window.open("https://www.instagram.com/ugc1988?igsh=aTZmczRoYWx3bmtu&utm_source=qr");
